@@ -1,0 +1,25 @@
+[package]
+name = "os-checker-plugin"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+duct = "0.13"
+jiff = "0.1"
+camino = "1"
+compact_str = "0.8"
+indexmap = { version = "2", features = ["serde"] }
+cargo_metadata  = "0.18"
+
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+
+# error handling
+eyre = "0.6"
+color-eyre = "0.6"
+
+# logger
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-error = "0.2"
