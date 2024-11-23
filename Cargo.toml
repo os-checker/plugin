@@ -3,6 +3,9 @@ name = "os-checker-plugin"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+exclude = [".github"]
+repository = "https://github.com/os-checker/plugin"
+description = "a lib used in os-checker's plugins, containing common utilities"
 
 [dependencies]
 duct = "0.13"
