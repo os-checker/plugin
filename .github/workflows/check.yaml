@@ -15,3 +15,6 @@ jobs:
 
       - name: Clippy
         run: cargo clippy -- -D warnings
+
+      - name: Check semver
+        uses: obi1kenobi/cargo-semver-checks-action@v2
