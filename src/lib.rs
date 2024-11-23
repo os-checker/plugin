@@ -8,3 +8,5 @@ pub mod prelude {
     pub use indexmap::IndexMap;
     pub use jiff::Timestamp;
 }
+
+pub fn breaks_semver() {}
