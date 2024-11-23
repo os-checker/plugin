@@ -1,7 +1,8 @@
 name: Check
 
 on:
-  push: [ main, feat/* ]
+  push:
+    branches: [ main, feat/* ]
 
 env:
   CARGO_TERM_COLOR: always
