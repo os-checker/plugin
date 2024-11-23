@@ -7,5 +7,4 @@ pub mod prelude {
     pub use eyre::{Context, Result};
     pub use indexmap::IndexMap;
     pub use jiff::Timestamp;
-    pub fn breaks_semver() {}
 }
