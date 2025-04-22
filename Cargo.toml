@@ -2,7 +2,11 @@
 name = "os-checker-plugin"
 version = "0.1.4"
 edition = "2021"
-license = "GPL-3.0 OR MulanPubL"
+# dual licensing: "GPL-3.0 OR MulanPubL"
+# MulanPubL is not listed by SPDX, failing to be published to crates.io.
+# Thus use a license and another license-file as a workaround,
+license = "GPL-3.0"
+license-file = "./LICENSE.MulanPubL"
 exclude = [".github"]
 repository = "https://github.com/os-checker/plugin"
 description = "a lib used in os-checker's plugins, containing common utilities"
