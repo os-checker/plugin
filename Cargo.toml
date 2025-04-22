@@ -1,8 +1,8 @@
 [package]
 name = "os-checker-plugin"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
-license = "MIT"
+license = "GPL-3.0 OR MulanPubL"
 exclude = [".github"]
 repository = "https://github.com/os-checker/plugin"
 description = "a lib used in os-checker's plugins, containing common utilities"
